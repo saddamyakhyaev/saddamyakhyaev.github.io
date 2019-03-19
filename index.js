@@ -7,6 +7,8 @@ window.onload = function(){
 		}); 
 	}, 500);
 	
+	if(window.innerWeidth < 500) mmmb = true;
+	
 	//document.getElementById('main-bar').height = window.innerHeight;
 	if(!mmmb) $('.window.up_height').css('height', (window.innerHeight + 50) + 'px');
 	$('.poster').css('max-height', (window.innerHeight - 100) + 'px');
